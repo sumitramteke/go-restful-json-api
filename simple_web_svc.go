@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func not_main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, 
 		r *http.Request) {
 
